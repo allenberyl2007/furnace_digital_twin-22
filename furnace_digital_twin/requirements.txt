@@ -1,0 +1,17 @@
+# Jumeau numérique — Four à induction (recyclage aluminium)
+#
+# Ce projet n'utilise volontairement que la bibliothèque standard Python
+# (voir README.md, section "Limites et hypothèses de modélisation" /
+# contraintes du projet : pas de dépendance externe). Aucun package tiers
+# n'est donc requis.
+#
+# Modules de la bibliothèque standard utilisés (pour référence, installés
+# avec Python) : dataclasses, enum, typing, pathlib, math, random, csv,
+# sqlite3, argparse, warnings, sys.
+#
+# Prérequis : Python 3.10+ (utilisation de `X | Y` dans les annotations de
+# type et de `from __future__ import annotations`).
+#
+# Ce fichier est fourni pour la clarté et la compatibilité avec les
+# outils standards (pip install -r requirements.txt) ; il n'installe
+# volontairement rien.
